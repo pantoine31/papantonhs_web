@@ -2,13 +2,16 @@
 import { Link, useLocation } from "react-router-dom";
 import { useEffect, useState } from "react";
 import "./Navbar.css";
+import fetchingImg2 from '../assets/logo.png';
+
+
 
 export default function Navbar() {
 
-    useEffect(() => {
-      window.scrollTo(0, 0);
-    }, []);
-    
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   const location = useLocation();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -18,10 +21,18 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
+
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          Antoni’s Journey
+          <img
+            src={fetchingImg2}
+            alt="logo"
+            className="nav-logo-img"
+          />
+          Your Local Overthinker
         </Link>
+
+
 
         {/* Hamburger Icon */}
         <div

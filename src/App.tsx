@@ -53,7 +53,7 @@ function App() {
       <div className="app">
         <Navbar />
         <main className="main-content">
-          <img src={fetchingImg} alt="a fetched image" className="header-image" />
+          {/* <img src={fetchingImg} alt="a fetched image" className="header-image" /> */}
           
           {isFetching ? (
             <p id="loading-fallback">Fetching Posts ...</p>

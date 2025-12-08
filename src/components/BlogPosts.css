@@ -202,3 +202,35 @@ h4{
         justify-content: center;
     }
 }
+
+
+/*css gia ta koumpia taksinomisis*/
+
+.sort-buttons {
+  display: flex;
+  justify-content: center;   /* 🟦 Κεντράρισμα οριζόντια */
+  gap: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-btn {
+  background-color: #4b7bec;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-weight: 500;
+}
+
+.sort-btn:hover {
+  background-color: #3867d6;
+  transform: translateY(-2px);
+}
+
+.sort-btn:active {
+  transform: scale(0.97);
+}
