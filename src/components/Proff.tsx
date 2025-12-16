@@ -79,22 +79,22 @@ export default function Proff() {
                 </div>
                 <div className="career-item-rec">
                     <h3>Letters of recommendation</h3>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/systatiki_epistoli_icap.pdf' target="_blank" rel="noopener noreferrer">
                         @Icap_Company
                     </a>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/systatiki_epistoli_digiSolutions.pdf' target="_blank" rel="noopener noreferrer">
                         @Digi_Solutions
                     </a>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/Systatiki-Papakonstantinou.pdf' target="_blank" rel="noopener noreferrer">
                         @Professor_Mr_Adreas_Menychtas
                     </a>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='SYSTATIKI_KEPYES_PAPAKONSTANTINOU.pdf' target="_blank" rel="noopener noreferrer">
                         @Professor_Mr_Stefanos_Gkritzalis
                     </a>
                 </div>
                 <div className="career-item">
                     <h3>Bachelor Thesis</h3>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/Thesis_papakonstantinou.pdf' target="_blank" rel="noopener noreferrer">
                         @BSc. Thesis
                     </a>
                 </div>
