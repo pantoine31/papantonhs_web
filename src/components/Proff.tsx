@@ -73,7 +73,7 @@ export default function Proff() {
 
                 <div className="career-item">
                     <h3>My resume</h3>
-                    <a href='https://github.com/pantoine31' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/papakonstantinou_cv.pdf' target="_blank" rel="noopener noreferrer">
                         @Resume
                     </a>
                 </div>
