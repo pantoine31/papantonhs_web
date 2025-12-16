@@ -208,7 +208,7 @@ h4{
 
 .sort-buttons {
   display: flex;
-  justify-content: center;   /* 🟦 Κεντράρισμα οριζόντια */
+  justify-content: center;   
   gap: 12px;
   margin-top: 10px;
   margin-bottom: 20px;
