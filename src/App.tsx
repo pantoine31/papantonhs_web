@@ -10,6 +10,7 @@ import Contact from "./components/Contact";
 import Proff from "./components/Proff";
 import Footer from './components/Footer';
 
+
 type RawDataBlogPost = {
   id: number;
   author:string;
