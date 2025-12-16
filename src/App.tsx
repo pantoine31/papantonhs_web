@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from "react";
 import { get } from "./util/http";
 import type { BlogPost } from "./components/BlogPost";
-import fetchingImg from './assets/logo.png';
 import BlogPosts from "./components/BlogPost";
 import BlogPostDetail from "./components/BlogPostDetail";
 import Navbar from "./components/Navbar";
