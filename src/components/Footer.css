@@ -4,7 +4,19 @@
   text-align: center;
   padding: 1.5rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 90px;
+  margin: 0;       
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+#root, .app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-links {

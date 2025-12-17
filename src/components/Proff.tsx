@@ -88,7 +88,7 @@ export default function Proff() {
                     <a href='/pdfs/Systatiki-Papakonstantinou.pdf' target="_blank" rel="noopener noreferrer">
                         @Professor_Mr_Adreas_Menychtas
                     </a>
-                    <a href='/pdfsSYSTATIKH_KEPYES_PAPAKONSTANTINOU.pdf' target="_blank" rel="noopener noreferrer">
+                    <a href='/pdfs/SYSTATIKH_KEPYES_PAPAKONSTANTINOU.pdf' target="_blank" rel="noopener noreferrer">
                         @Professor_Mr_Stefanos_Gkritzalis
                     </a>
                 </div>
