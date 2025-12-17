@@ -1,17 +1,28 @@
 .footer {
+  width: 100%;
+  margin: 0;
+
   background: #2c3e50;
   color: #ecf0f1;
   text-align: center;
   padding: 1.5rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin: 0;       
-  width: 100%;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
 
 html, body {
   height: 100%;
   margin: 0;
 }
+
 
 #root, .app {
   min-height: 100vh;
