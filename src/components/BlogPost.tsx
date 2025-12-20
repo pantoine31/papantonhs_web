@@ -44,7 +44,13 @@ function parseGreekDate(dateStr: string): Date {
 // ------------------------------------------------
 
 export default function BlogPosts({ posts }: BlogPostsProps) {
-  const [sortedPosts, setSortedPosts] = useState(posts);
+const [sortedPosts, setSortedPosts] = useState(() =>
+  [...posts].sort(
+    (a, b) =>
+      parseGreekDate(b.date!).getTime() -
+      parseGreekDate(a.date!).getTime()
+  )
+);
 
   const sortOldToNew = () => {
     const sorted = [...sortedPosts].sort((a, b) =>
