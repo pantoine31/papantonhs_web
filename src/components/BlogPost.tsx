@@ -69,7 +69,7 @@ const [sortedPosts, setSortedPosts] = useState(() =>
   return (
     <div className="blog-posts-container">
       <header className="blog-header">
-        <h1>Blog Posts</h1>
+        <h1>Τα άρθρα μου</h1>
 
         <div className="sort-buttons">
           <button onClick={sortOldToNew} className="sort-btn">
