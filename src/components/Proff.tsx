@@ -10,7 +10,7 @@ interface Job {
 
 const jobs: Job[] = [
     {
-        title: "Junior Frontend Engineer",
+        title: "Junior Software Engineer",
         company: "Netcompany",
         date: "Sep 2025 – Present",
         description: "Developing responsive and modular frontend components with React and TypeScript. Collaborating with teams using Git workflows and maintaining consistency through design systems."

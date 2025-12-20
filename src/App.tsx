@@ -52,9 +52,7 @@ function App() {
     <Router>
       <div className="app">
         <Navbar />
-        <main className="main-content">
-          {/* <img src={fetchingImg} alt="a fetched image" className="header-image" /> */}
-          
+        <main className="main-content">          
           {isFetching ? (
             <p id="loading-fallback">Fetching Posts ...</p>
           ) : (

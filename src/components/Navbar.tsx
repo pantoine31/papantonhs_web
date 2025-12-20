@@ -29,7 +29,7 @@ export default function Navbar() {
             alt="logo"
             className="nav-logo-img"
           />
-          Your Local Overthinker
+          Tou Pap
         </Link>
 
 
