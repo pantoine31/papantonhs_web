@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useEffect, useState } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import { get } from "./util/http";
 import type { BlogPost } from "./components/BlogPost";
 import BlogPosts from "./components/BlogPost";
@@ -73,6 +74,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Analytics />
     </Router>
   );
 }
