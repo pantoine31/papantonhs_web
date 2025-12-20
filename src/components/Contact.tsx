@@ -18,7 +18,7 @@ export default function Contact() {
 
           <div className="contact-item">
             <h3>LinkedIn</h3>
-            <a href='https://www.linkedin.com/in/papantonios' target="_blank" rel="noopener noreferrer">
+            <a href='https://www.linkedin.com/in/papantonios/' target="_blank" rel="noopener noreferrer">
               @Antonis Papakonstantinou
             </a>
           </div>
