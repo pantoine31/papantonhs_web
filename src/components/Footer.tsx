@@ -3,7 +3,7 @@ import "./Footer.css";
 export default function Footer() {
     return (
         <footer className="footer">
-            <p>© {new Date().getFullYear()} Antonis Papakonstantinou - Software Engineer @Netcompany.</p>
+            <p>© {new Date().getFullYear()} Antonis Papakonstantinou</p>
             <p>All rights reserved.</p>
             <div className="footer-links">
                 <a href="https://www.linkedin.com/in/papantonios/" target="_blank">LinkedIn</a>
