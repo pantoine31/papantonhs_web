@@ -36,7 +36,13 @@ const monthsGR: Record<string, number> = {
 function parseGreekDate(dateStr: string): Date {
   const parts = dateStr.split(" ");
   const day = Number(parts[0]);
-  const month = monthsGR[parts[1]];
+  // Remove diacritics from month string for robust matching
+  let monthStr = parts[1].normalize('NFD').replace(/\p{M}/gu, '');
+  // Special handling for Μαΐου (with or without diacritics)
+  if (monthStr.startsWith('Μαι')) {
+    monthStr = 'Μαΐου';
+  }
+  const month = monthsGR[monthStr] !== undefined ? monthsGR[monthStr] : monthsGR[parts[1]];
   const year = Number(parts[2]);
   return new Date(year, month, day);
 }
