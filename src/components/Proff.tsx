@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import "./link.css"; 
+import "./link.css";
 
 interface Job {
     title: string;
@@ -14,6 +14,13 @@ const jobs: Job[] = [
         company: "Netcompany",
         date: "Sep 2025 – Present",
         description: "Developing responsive and modular frontend components with React and TypeScript. Collaborating with teams using Git workflows and maintaining consistency through design systems."
+    },
+    {
+        title: "Bachelor's Degree in Computer Science",
+        company: "University of Piraeus",
+        date: "Sept 2024",
+        description: "Bachelor’s Degree in Computer Science (Grade: 7.49/10). \n Coursework included Web Development, Databases, Software Engineering, Data Structures, Algorithms, and Cybersecurity. Bachelor Thesis: 'Smart Cities: Privacy and Security'."
+
     },
     {
         title: "Junior Web Developer (Internship)",
@@ -36,19 +43,19 @@ const jobs: Job[] = [
         description: "Provided customer support via phone and chat, handling 50+ daily requests and collaborating on major telecom projects (Wind Hellas, Nova), while developing strong communication and problem-solving skills."
     },
     {
-        title: "Bachelor's Degree in Computer Science",
-        company: "University of Piraeus",
-        date: "Sep 2020 – Sep 2024",
-        description: "Bachelor’s Degree in Computer Science (Grade: 7.49/10). Coursework included Web Development, Databases, Software Engineering, Data Structures, Algorithms, and Cybersecurity. Bachelor Thesis: 'Smart Cities: Privacy and Security'."
+        title: "Starting studies in Bachelor's Degree",
+        company: "University of Piraeus, Department of Digital Systems",
+        date: "Sep 2020",
+        description: "Coursework included Web Development, Databases, Software Engineering, Data Structures, Algorithms, and Cybersecurity."
 
     },
 ];
 
 export default function Proff() {
 
-      useEffect(() => {
+    useEffect(() => {
         window.scrollTo(0, 0);
-      }, []);
+    }, []);
     return (
         <section className="career-container">
             <h2 className="career-title">Career Journey</h2>
