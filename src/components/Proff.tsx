@@ -16,6 +16,13 @@ const jobs: Job[] = [
         description: "Developing responsive and modular frontend components with React and TypeScript. Collaborating with teams using Git workflows and maintaining consistency through design systems."
     },
     {
+        title: "Military Service",
+        company: "Hellenic Greek Army",
+        date: "Sep 2024 – Aug 2025",
+        description: "Completing mandatory military service in the Hellenic Greek Army."
+
+    },
+    {
         title: "Bachelor's Degree in Computer Science",
         company: "University of Piraeus",
         date: "Sept 2024",
